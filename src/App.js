@@ -109,3 +109,36 @@ export default function App() {
     </>
   );
 }
+
+// import { MultiChatSocket, useMultiChatLogic } from "react-chat-engine-advanced";
+
+// // const projectID = "30413a6f-5cf7-4635-ab12-748617ce371c"
+// // const username = "Shoury"
+// // const secret = "baatcheet"
+//        const projectID="30413a6f-5cf7-4635-ab12-748617ce371c"
+//        const userName="Shoury"
+//        const userSecret="baatcheet"
+
+// function App(){
+//   const chatProps = useMultiChatLogic(projectID, userName, userSecret)
+//   console.log("done")
+//   return (
+//     <MultiChatSocket 
+//         projectId={chatProps.projectId}
+//         username={chatProps.username}
+//         secret={chatProps.secret}
+//         onConnect={chatProps.onConnect}
+//         onAuthFail={chatProps.onAuthFail}       
+//         onNewChat={chatProps.onNewChat}
+//         onEditChat={chatProps.onEditChat}
+//         onDeleteChat={chatProps.onDeleteChat}
+//         onNewMessage={chatProps.onNewMessage}
+//         onEditMessage={chatProps.onEditMessage}
+//         onDeleteMessage={chatProps.onDeleteMessage}
+//         onIsTyping={chatProps.onIsTyping}
+//     />
+//   )
+
+// }
+
+// export default App;
